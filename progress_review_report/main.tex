@@ -1,0 +1,105 @@
+%*****************************************************************************
+% FILE: main.tex
+% DESCRIPTION:
+%   LaTeX version of Progress Review Report document to be submitted by PhD 
+%   students of Homi Bhabha National Institute (HBNI) every year.
+% AUTHOR: M Gopal Krishna
+% CONTACT: gkm027[at]gmail.com
+% LAST REVISED: 01/2024
+%*****************************************************************************
+\documentclass[a4paper]{article}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage{titling}
+\usepackage{fullpage}
+\usepackage{lipsum}
+
+\title{%
+    \vspace{-2cm}
+    \makebox[\textwidth][s]{%
+        \makebox[0pt][l]{%
+            \includegraphics[width=0.15\textwidth]{hbni_logo}}%
+            \hspace{3cm}
+            \begin{tabular}[b]{@{}c@{}}
+                \huge\textbf{\ Homi Bhabha National Institute} \\
+                \LARGE\textbf{Ph.D. PROGRAMME} \\
+                \Large\textbf{PROGRESS REVIEW
+                \thanks{ To be conducted only after a student has submitted a
+                    brief progress report to doctoral committee explaining
+                    progress made during the period in research, papers
+                    published, completed courses with marks obtained (taught
+                    courses, self-study courses, credit seminars) with
+                    appropriate certification thereof, pending courses and 
+                    work planned in next year. Report from the student should 
+                    be attached to the progress review report.}
+                REPORT.}
+            \end{tabular}%
+            \hfill
+    }%
+}
+
+\author{}
+\date{}
+
+\thanksmarkseries{arabic}
+
+\begin{document}
+\maketitle
+\vspace{-2.5cm}
+
+\begin{framed}
+\begin{enumerate}[series=boxed]
+    \item \textbf{Name of the Student}: Mr. Raju Rastogi
+    \item \textbf{Name of the Constituent Institution}: Imperial College for Engineering, Delhi
+    \item \textbf{Enrolment No. and Date of Enrolment}: ENGF11201203289 / June 01, 2011
+    \item \textbf{Title of the Thesis}: Study and Analysis of Induction Motor
+    \item \textbf{OGCE}: Held on July 18, 2012
+    \item \textbf{Review Period and Date of Meeting}: 2011--2012 / Aug 13, 2012
+\end{enumerate}
+\end{framed}
+
+\begin{enumerate}[resume=boxed]
+    \item \underline{\textbf{Report of Doctoral Committee}}: \\
+        \lipsum[1-2]
+
+        \textbf{Suggestions by Doctoral Committee during presentation}:
+        \lipsum[3]
+
+    \item \underline{\textbf{Recommendations}}:
+        \begin{itemize}[label={}]
+            \item \textbf{Grade}: Very Good
+            \item \textbf{Recommendation for continuation}: Yes
+            \item \textbf{Likely year of finishing the programme} (in case recommended to continue): 2016
+        \end{itemize}
+\end{enumerate}
+
+\begin{enumerate}[resume=boxed]
+    \item \underline{\textbf{Future Guidelines}}: \\
+        \lipsum[1]
+    \item \underline{\textbf{Next\footnotemark[2]{} Progress Report Due
+        on}}:\footnotetext[2]{One progress report per year is mandatory. Doctoral
+        committee can ask more frequent progress reports.} 2013
+\end{enumerate}
+
+\begin{enumerate}[resume=boxed]
+    \item \underline{\textbf{Doctoral Committee}}:
+    % To change doctoral committee member, edit table.tex file
+    \input{table.tex}
+\end{enumerate}
+
+\vspace{0.5cm}
+\begin{flushright}
+    \textbf{Signature of Dean--Academic with Date}
+\end{flushright}
+
+\vspace{0.5cm}
+To \\
+\hangindent=1cm Dean, HBNI
+
+\vspace{2cm}
+C.C. All monitoring committee members and reporting the student.
+
+\end{document}
