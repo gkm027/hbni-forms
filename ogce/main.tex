@@ -1,0 +1,85 @@
+%*****************************************************************************
+% FILE: main.tex
+% DESCRIPTION:
+%   LaTeX version of Oral General Comprehensive Examination (OGCE) document
+%   to be submitted by PhD students of Homi Bhabha National Institute (HBNI).
+% AUTHOR: M Gopal Krishna
+% CONTACT: gkm027[at]gmail.com
+% LAST REVISED: 01/2024
+%*****************************************************************************
+\documentclass[a4paper]{article}
+\usepackage[ignoreheadfoot,
+            top=1cm,
+            bottom=0cm]{geometry}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage{titling}
+\usepackage{amssymb}
+
+\title{%
+    \vspace{-1cm}
+    \makebox[\textwidth][s]{%
+        \makebox[0pt][l]{%
+            \includegraphics[width=0.15\textwidth]{hbni_logo}}%
+            \hspace{3cm}
+            \begin{tabular}[b]{@{}c@{}}
+                \huge\textbf{Homi Bhabha National Institute} \\
+                \vspace{0.5cm}
+                \LARGE\textbf{Ph.D. PROGRAMME} \\
+            \end{tabular}%
+            \hfill
+    }%
+}
+
+\author{}
+\date{}
+
+\thanksmarkseries{arabic}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\vspace{-2.8cm}
+
+\textbf{ORAL GENERAL COMPREHENSIVE EXAMINATION REPORT (OGCE)}
+\begin{framed}
+\begin{enumerate}
+    \item \textbf{Name of the Student}: Mr. Raju Rastogi
+    \item \textbf{Name of the Constituent Institution}: Imperial College for Engineering, Delhi
+
+    \item \textbf{Enrolment No.}: ENGF11201203289
+    \item \textbf{Title of the Thesis}: Study and Analysis of Induction Motor
+    \item \textbf{Board of Studies}: Engineering Sciences
+\end{enumerate}
+\end{framed}
+
+\noindent
+It is certified that the student has completed the course work and earned the
+credits prescribed by the competent authority. The Oral General Comprehensive
+Examination of \underline{Mr. Raju Rastogi} was conducted on \underline{18-07-2012}.
+\newline \noindent
+Observation of the doctoral committee is as follows (Tick the appropriate box):
+\begin{enumerate}[label={$\square$}]
+    \item Satisfied with his/her performance and the permit him/her to continue with his/her Ph.D. programme
+    \item Not fully satisfied with his/her performance and recommends him/her to reappear for OCGE within 6 months.
+    \item Not satisfied with his/her performance and recommends him/her termination from Ph.D. Programme.
+\end{enumerate}
+
+\noindent
+{\Large\underline{\textbf{Doctoral Committee}}}:
+% To change doctoral committee member, edit table.tex file
+\input{table.tex}
+
+\vspace{1cm}
+\begin{flushright}
+    \textbf{Signature of Dean--Academic with Date}
+\end{flushright}
+
+To \\
+\hangindent=1cm Dean, HBNI
+
+C.C. All monitoring committee members and reporting the student.
+
+\end{document}
